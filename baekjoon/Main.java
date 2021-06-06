@@ -3,16 +3,17 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        String tmp = sc.next();
-        sc.close();
-        int sum = 0;
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
 
-        for(int i=0;i<N;i++){
-            sum += tmp.charAt(i);    
+        int sum = C-B;
+        if(sum<=0){
+            System.out.println("-1");
+            return;
         }
-        sum -= N*48;
-        
-        System.out.println(sum);
+        int count = A/sum+1;
+        System.out.println(count);
+        sc.close();
     }
 }

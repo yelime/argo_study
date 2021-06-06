@@ -1,3 +1,5 @@
+package bj_024;
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;

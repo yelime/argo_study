@@ -1,4 +1,4 @@
-// package bj_024;
+package bj_024;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -23,7 +23,5 @@ public class bj_2439 {
 		bw.flush();
 		bw.close();
 	}
-
-}
 
 }
